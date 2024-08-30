@@ -9,6 +9,8 @@ Miryoku-like keymap for Kinesis Advantage 2 with Pillzmod (controller board repl
 
 This is kludged together and does not have all the customization as Miryoku. It is just the standard Colemak DH layout with some small tweaks. Number row, F-keys and function/symbols keys (barring thumb clusters) of the kinesis are generally retained
 
+Note: Potentially harder to get [into bootloader with older 25Mhz crystal](https://docs.qmk.fm/platformdev_blackpill_f4x1#bootloader-issues)
+
 ### To build
 
 1. Download dcpedit's vial-qmk fork and switch to the pillzmod branch and [setup qmk](https://docs.qmk.fm/newbs_getting_started):
